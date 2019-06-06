@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
 
-const Vehicle = require("../db/models/Vehicle");
+const Starship = require("../db/models/Starship");
 
 module.exports = router
