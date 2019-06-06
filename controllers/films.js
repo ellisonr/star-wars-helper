@@ -7,8 +7,8 @@ router.get("/", (req, res) => {
     Film.find({}).then(films => res.json(films));
     });
 
-router.get("/:name", (req, res) => {
-    Film.find({ name: req.params.name})
+router.get("/:title", (req, res) => {
+    Film.find({ title: req.params.title})
     .then(films => res.json(films));
 });
 
@@ -17,14 +17,14 @@ router.post("/", (req, res) => {
     .then(film => res.json(film));
 });
 
-router.put("/:name", (req, res) => {
-    Film.findOneAndUpdate({ name: req.params.name}, req.body,
+router.put("/:title", (req, res) => {
+    Film.findOneAndUpdate({ title: req.params.title}, req.body,
         {new: true})
         .then(film => res.json(film));
 });
 
-router.delete("/:name", (req, res) => {
-    Film.findOneAndDelete({ name: req.params.name})
+router.delete("/:title", (req, res) => {
+    Film.findOneAndDelete({ title: req.params.title})
     .then(film => {
     res.json(film);
     });
