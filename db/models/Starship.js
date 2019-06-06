@@ -14,7 +14,7 @@ const StarshipSchema = new mongoose.Schema({
         required: true
     },
     cost_in_credits: {
-        type: String
+        type: Number
     },
     length: {
         type: Number
@@ -46,7 +46,7 @@ const StarshipSchema = new mongoose.Schema({
     films: [
         {
             type: mongoose.Schema.Types.ObjectId,
-            ref: Film
+            ref: "Film"
         }
     ],
     created: {
