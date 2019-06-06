@@ -34,15 +34,15 @@ const FilmSchema = new mongoose.Schema({
         ref: "Starship"
     },
     created: {
-        type:
+        type: Date
     },
     edited: {
-        type:
+        type: Date
     },
     url: {
         type: String,
-        required, true
-    }
+        required: true
+        }
 })
 
 const Film = mongoose.model("Film", FilmSchema);

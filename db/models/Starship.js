@@ -50,10 +50,10 @@ const StarshipSchema = new mongoose.Schema({
         }
     ],
     created: {
-        type:
+        type: Date
     },
     edited: {
-        type:
+        type: Date
     },
     url: {
         type: String,

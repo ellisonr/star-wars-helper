@@ -39,8 +39,12 @@ const CharacterSchema = new mongoose.Schema({
         ref: "Starship"
         }
     ],
-    created:
-    edited:
+    created: {
+        type: Date
+    },
+    edited: {
+        type: Date
+    },
     url: {
         type: String
     }
