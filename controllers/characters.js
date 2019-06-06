@@ -4,12 +4,12 @@ const router = express.Router();
 const Character = require("../db/models/Character");
 
 router.get("/", (req, res) => {
-    Character.find({}).then(characters => res.json(characteres));
+    Character.find({}).then(characters => res.json(characters));
 });
 
 router.get("/:name", (req, res) => {
     Character.find({ name: req.params.name})
-    .then(characters => res.json(bookmarks));
+    .then(characters => res.json(characters));
 });
 
 router.post("/", (req,res) => {
