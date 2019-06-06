@@ -21,18 +21,18 @@ This app (assuming a front end would eventually be built for it) would allow a u
 * eye color
 * birthday
 * films []
-* vehicles/starships []
+* starships []
 
 ###### Films
 * title
 * episode number
 * release date
 * director
-* producers []
+* producers
 * characters []
-* vehicles/starships []
+* starships []
 
-###### Vehicles/Starships
+###### Starships
 * name
 * model
 * length
