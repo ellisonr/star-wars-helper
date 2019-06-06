@@ -8,3 +8,35 @@ const Character = require("./models/Character");
 const Film = require("./models/Film");
 const Starship = require("./models/Starship");
 
+Character.deleteMany({})
+.then (() => {
+    Character.create(charactersData)
+    .then(newCharacter => {
+        console.log(newCharacter)
+    })
+    .catch(err => {
+        console.log(err)
+    })
+});
+
+Film.deleteMany({})
+.then (() => {
+    Film.create(filmsData)
+    .then(newFilm => {
+        console.log(newFilm)
+    })
+    .catch(err => {
+        console.log(err)
+    })
+});
+
+Starship.deleteMany({})
+.then (() => {
+    Starship.create(starshipsData)
+    .then(newStarship => {
+        console.log(newStarship)
+    })
+    .catch(err => {
+        console.log(err)
+    })
+});
