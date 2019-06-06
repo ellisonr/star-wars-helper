@@ -1,7 +1,50 @@
 const mongoose = require("../connection");
 
 const CharacterSchema = new mongoose.Schema({
-    
+    name: {
+        type: String,
+        required: true
+    },
+    height:
+    {
+        type: Number
+    },
+    mass: {
+        type: Number
+    },
+    hair_color: {
+        type: String
+    },
+    skin_color: {
+        type: String
+    },
+    eye_color: {
+        type: String
+    },
+    birth_year: {
+        type: String
+    },
+    gender: {
+        type: String
+    },
+    films: [
+        {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Film"
+        }
+    ],
+    starships: [
+        {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Starship"
+        }
+    ],
+    created:
+    edited:
+    url: {
+        type: String
+    }
+
 })
 
 const Character = mongoose.model("Character", CharacterSchema);
