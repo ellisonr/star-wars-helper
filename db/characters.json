@@ -8,13 +8,7 @@
         "eye_color": "blue",
         "birth_year": "19BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/",
-            "https://swapi.co/api/films/7/"
-        ],
+        "films": [],
         "created": "2014-12-09T13:50:51.644000Z",
         "edited": "2014-12-20T21:17:56.891000Z",
         "url": "https://swapi.co/api/people/1/"
@@ -28,14 +22,7 @@
         "eye_color": "yellow",
         "birth_year": "112BBY",
         "gender": "n/a",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T15:10:51.357000Z",
         "edited": "2014-12-20T21:17:50.309000Z",
         "url": "https://swapi.co/api/people/2/"
@@ -49,15 +36,7 @@
         "eye_color": "red",
         "birth_year": "33BBY",
         "gender": "n/a",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/",
-            "https://swapi.co/api/films/7/"
-        ],
+        "films": [],
         "created": "2014-12-10T15:11:50.376000Z",
         "edited": "2014-12-20T21:17:50.311000Z",
         "url": "https://swapi.co/api/people/3/"
@@ -71,12 +50,7 @@
         "eye_color": "yellow",
         "birth_year": "41.9BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T15:18:20.704000Z",
         "edited": "2014-12-20T21:17:50.313000Z",
         "url": "https://swapi.co/api/people/4/"
@@ -90,13 +64,7 @@
         "eye_color": "brown",
         "birth_year": "19BBY",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/",
-            "https://swapi.co/api/films/7/"
-        ],
+        "films": [],
         "created": "2014-12-10T15:20:09.791000Z",
         "edited": "2014-12-20T21:17:50.315000Z",
         "url": "https://swapi.co/api/people/5/"
@@ -110,11 +78,7 @@
         "eye_color": "blue",
         "birth_year": "52BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T15:52:14.024000Z",
         "edited": "2014-12-20T21:17:50.317000Z",
         "url": "https://swapi.co/api/people/6/"
@@ -128,11 +92,7 @@
         "eye_color": "blue",
         "birth_year": "47BBY",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T15:53:41.121000Z",
         "edited": "2014-12-20T21:17:50.319000Z",
         "url": "https://swapi.co/api/people/7/"
@@ -146,9 +106,7 @@
         "eye_color": "red",
         "birth_year": "unknown",
         "gender": "n/a",
-        "films": [
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T15:57:50.959000Z",
         "edited": "2014-12-20T21:17:50.321000Z",
         "url": "https://swapi.co/api/people/8/"
@@ -162,9 +120,7 @@
         "eye_color": "brown",
         "birth_year": "24BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T15:59:50.509000Z",
         "edited": "2014-12-20T21:17:50.323000Z",
         "url": "https://swapi.co/api/people/9/"
@@ -178,14 +134,7 @@
         "eye_color": "blue-gray",
         "birth_year": "57BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T16:16:29.192000Z",
         "edited": "2014-12-20T21:17:50.325000Z",
         "url": "https://swapi.co/api/people/10/"
@@ -199,11 +148,7 @@
         "eye_color": "blue",
         "birth_year": "41.9BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-10T16:20:44.310000Z",
         "edited": "2014-12-20T21:17:50.327000Z",
         "url": "https://swapi.co/api/people/11/"
@@ -216,10 +161,7 @@
         "eye_color": "blue",
         "birth_year": "64BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T16:26:56.138000Z",
         "edited": "2014-12-20T21:17:50.330000Z",
         "url": "https://swapi.co/api/people/12/"
@@ -233,13 +175,7 @@
         "eye_color": "blue",
         "birth_year": "200BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/",
-            "https://swapi.co/api/films/7/"
-        ],
+        "films": [],
         "created": "2014-12-10T16:42:45.066000Z",
         "edited": "2014-12-20T21:17:50.332000Z",
         "url": "https://swapi.co/api/people/13/"
@@ -253,12 +189,7 @@
         "eye_color": "brown",
         "birth_year": "29BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/",
-            "https://swapi.co/api/films/7/"
-        ],
+        "films": [],
         "created": "2014-12-10T16:49:14.582000Z",
         "edited": "2014-12-20T21:17:50.334000Z",
         "url": "https://swapi.co/api/people/14/"
@@ -272,9 +203,7 @@
         "eye_color": "black",
         "birth_year": "44BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T17:03:30.334000Z",
         "edited": "2014-12-20T21:17:50.336000Z",
         "url": "https://swapi.co/api/people/15/"
@@ -288,11 +217,7 @@
         "eye_color": "orange",
         "birth_year": "600BBY",
         "gender": "hermaphrodite",
-        "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-10T17:11:31.638000Z",
         "edited": "2014-12-20T21:17:50.338000Z",
         "url": "https://swapi.co/api/people/16/"
@@ -306,11 +231,7 @@
         "eye_color": "hazel",
         "birth_year": "21BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-12T11:08:06.469000Z",
         "edited": "2014-12-20T21:17:50.341000Z",
         "url": "https://swapi.co/api/people/18/"
@@ -324,9 +245,7 @@
         "eye_color": "blue",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/1/"
-        ],
+        "films": [],
         "created": "2014-12-12T11:16:56.569000Z",
         "edited": "2014-12-20T21:17:50.343000Z",
         "url": "https://swapi.co/api/people/19/"
@@ -340,13 +259,7 @@
         "eye_color": "brown",
         "birth_year": "896BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-15T12:26:01.042000Z",
         "edited": "2014-12-20T21:17:50.345000Z",
         "url": "https://swapi.co/api/people/20/"
@@ -360,13 +273,7 @@
         "eye_color": "yellow",
         "birth_year": "82BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/",
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-15T12:48:05.971000Z",
         "edited": "2014-12-20T21:17:50.347000Z",
         "url": "https://swapi.co/api/people/21/"
@@ -380,11 +287,7 @@
         "eye_color": "brown",
         "birth_year": "31.5BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-15T12:49:32.457000Z",
         "edited": "2014-12-20T21:17:50.349000Z",
         "url": "https://swapi.co/api/people/22/"
@@ -398,9 +301,7 @@
         "eye_color": "red",
         "birth_year": "15BBY",
         "gender": "none",
-        "films": [
-            "https://swapi.co/api/films/2/"
-        ],
+        "films": [],
         "created": "2014-12-15T12:51:10.076000Z",
         "edited": "2014-12-20T21:17:50.351000Z",
         "url": "https://swapi.co/api/people/23/"
@@ -414,9 +315,7 @@
         "eye_color": "red",
         "birth_year": "53BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/"
-        ],
+        "films": [],
         "created": "2014-12-15T12:53:49.297000Z",
         "edited": "2014-12-20T21:17:50.355000Z",
         "url": "https://swapi.co/api/people/24/"
@@ -430,10 +329,7 @@
         "eye_color": "brown",
         "birth_year": "31BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/",
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-15T12:56:32.683000Z",
         "edited": "2014-12-20T21:17:50.357000Z",
         "url": "https://swapi.co/api/people/25/"
@@ -447,9 +343,7 @@
         "eye_color": "blue",
         "birth_year": "37BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/2/"
-        ],
+        "films": [],
         "created": "2014-12-15T13:01:57.178000Z",
         "edited": "2014-12-20T21:17:50.359000Z",
         "url": "https://swapi.co/api/people/26/"
@@ -463,10 +357,7 @@
         "eye_color": "orange",
         "birth_year": "41BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/3/",
-            "https://swapi.co/api/films/7/"
-        ],
+        "films": [],
         "created": "2014-12-18T11:07:50.584000Z",
         "edited": "2014-12-20T21:17:50.362000Z",
         "url": "https://swapi.co/api/people/27/"
@@ -479,9 +370,7 @@
         "eye_color": "blue",
         "birth_year": "48BBY",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-18T11:12:38.895000Z",
         "edited": "2014-12-20T21:17:50.364000Z",
         "url": "https://swapi.co/api/people/28/"
@@ -493,9 +382,7 @@
         "eye_color": "brown",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-18T11:16:33.020000Z",
         "edited": "2014-12-20T21:17:50.367000Z",
         "url": "https://swapi.co/api/people/29/"
@@ -509,9 +396,7 @@
         "eye_color": "brown",
         "birth_year": "8BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-18T11:21:58.954000Z",
         "edited": "2014-12-20T21:17:50.369000Z",
         "url": "https://swapi.co/api/people/30/"
@@ -525,9 +410,7 @@
         "eye_color": "black",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-18T11:26:18.541000Z",
         "edited": "2014-12-20T21:17:50.371000Z",
         "url": "https://swapi.co/api/people/31/"
@@ -541,9 +424,7 @@
         "eye_color": "blue",
         "birth_year": "92BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T16:54:53.618000Z",
         "edited": "2014-12-20T21:17:50.375000Z",
         "url": "https://swapi.co/api/people/32/"
@@ -557,11 +438,7 @@
         "eye_color": "red",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:05:57.357000Z",
         "edited": "2014-12-20T21:17:50.377000Z",
         "url": "https://swapi.co/api/people/33/"
@@ -574,9 +451,7 @@
         "eye_color": "blue",
         "birth_year": "91BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:21:45.915000Z",
         "edited": "2014-12-20T21:17:50.379000Z",
         "url": "https://swapi.co/api/people/34/"
@@ -590,10 +465,7 @@
         "eye_color": "orange",
         "birth_year": "52BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:29:32.489000Z",
         "edited": "2014-12-20T21:17:50.383000Z",
         "url": "https://swapi.co/api/people/36/"
@@ -607,9 +479,7 @@
         "eye_color": "orange",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:32:56.741000Z",
         "edited": "2014-12-20T21:17:50.385000Z",
         "url": "https://swapi.co/api/people/37/"
@@ -622,9 +492,7 @@
         "eye_color": "orange",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:33:38.909000Z",
         "edited": "2014-12-20T21:17:50.388000Z",
         "url": "https://swapi.co/api/people/38/"
@@ -637,9 +505,7 @@
         "eye_color": "blue",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:45:01.522000Z",
         "edited": "2014-12-20T21:17:50.392000Z",
         "url": "https://swapi.co/api/people/39/"
@@ -652,10 +518,7 @@
         "eye_color": "yellow",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:48:54.647000Z",
         "edited": "2014-12-20T21:17:50.395000Z",
         "url": "https://swapi.co/api/people/40/"
@@ -669,9 +532,7 @@
         "eye_color": "orange",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:53:02.586000Z",
         "edited": "2014-12-20T21:17:50.397000Z",
         "url": "https://swapi.co/api/people/41/"
@@ -684,9 +545,7 @@
         "eye_color": "brown",
         "birth_year": "62BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:55:43.348000Z",
         "edited": "2014-12-20T21:17:50.399000Z",
         "url": "https://swapi.co/api/people/42/"
@@ -699,10 +558,7 @@
         "eye_color": "brown",
         "birth_year": "72BBY",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T17:57:41.191000Z",
         "edited": "2014-12-20T21:17:50.401000Z",
         "url": "https://swapi.co/api/people/43/"
@@ -716,9 +572,7 @@
         "eye_color": "yellow",
         "birth_year": "54BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-19T18:00:41.929000Z",
         "edited": "2014-12-20T21:17:50.403000Z",
         "url": "https://swapi.co/api/people/44/"
@@ -731,9 +585,7 @@
         "eye_color": "pink",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/3/"
-        ],
+        "films": [],
         "created": "2014-12-20T09:47:02.512000Z",
         "edited": "2014-12-20T21:17:50.407000Z",
         "url": "https://swapi.co/api/people/45/"
@@ -747,11 +599,7 @@
         "eye_color": "hazel",
         "birth_year": "48BBY",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T09:48:01.172000Z",
         "edited": "2014-12-20T21:17:50.409000Z",
         "url": "https://swapi.co/api/people/46/"
@@ -765,9 +613,7 @@
         "eye_color": "yellow",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-20T09:57:31.858000Z",
         "edited": "2014-12-20T21:17:50.414000Z",
         "url": "https://swapi.co/api/people/48/"
@@ -780,9 +626,7 @@
         "eye_color": "black",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:02:12.223000Z",
         "edited": "2014-12-20T21:17:50.416000Z",
         "url": "https://swapi.co/api/people/49/"
@@ -796,9 +640,7 @@
         "eye_color": "orange",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:08:33.777000Z",
         "edited": "2014-12-20T21:17:50.417000Z",
         "url": "https://swapi.co/api/people/50/"
@@ -812,11 +654,7 @@
         "eye_color": "brown",
         "birth_year": "72BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:12:30.846000Z",
         "edited": "2014-12-20T21:17:50.420000Z",
         "url": "https://swapi.co/api/people/51/"
@@ -830,11 +668,7 @@
         "eye_color": "yellow",
         "birth_year": "92BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:15:32.293000Z",
         "edited": "2014-12-20T21:17:50.422000Z",
         "url": "https://swapi.co/api/people/52/"
@@ -848,11 +682,7 @@
         "eye_color": "black",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:18:57.202000Z",
         "edited": "2014-12-20T21:17:50.424000Z",
         "url": "https://swapi.co/api/people/53/"
@@ -865,10 +695,7 @@
         "eye_color": "brown",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:26:47.902000Z",
         "edited": "2014-12-20T21:17:50.427000Z",
         "url": "https://swapi.co/api/people/54/"
@@ -882,10 +709,7 @@
         "eye_color": "blue",
         "birth_year": "unknown",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:29:11.661000Z",
         "edited": "2014-12-20T21:17:50.432000Z",
         "url": "https://swapi.co/api/people/55/"
@@ -898,10 +722,7 @@
         "eye_color": "orange",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:32:11.669000Z",
         "edited": "2014-12-20T21:17:50.434000Z",
         "url": "https://swapi.co/api/people/56/"
@@ -914,9 +735,7 @@
         "eye_color": "yellow",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:34:48.725000Z",
         "edited": "2014-12-20T21:17:50.437000Z",
         "url": "https://swapi.co/api/people/57/"
@@ -930,11 +749,7 @@
         "eye_color": "black",
         "birth_year": "22BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:49:19.859000Z",
         "edited": "2014-12-20T21:17:50.439000Z",
         "url": "https://swapi.co/api/people/58/"
@@ -947,10 +762,7 @@
         "eye_color": "blue",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/4/"
-        ],
+        "films": [],
         "created": "2014-12-20T10:53:26.457000Z",
         "edited": "2014-12-20T21:17:50.442000Z",
         "url": "https://swapi.co/api/people/59/"
@@ -964,9 +776,7 @@
         "eye_color": "brown",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T11:10:10.381000Z",
         "edited": "2014-12-20T21:17:50.445000Z",
         "url": "https://swapi.co/api/people/60/"
@@ -979,9 +789,7 @@
         "eye_color": "brown",
         "birth_year": "unknown",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T11:11:39.630000Z",
         "edited": "2014-12-20T21:17:50.449000Z",
         "url": "https://swapi.co/api/people/61/"
@@ -994,9 +802,7 @@
         "eye_color": "blue",
         "birth_year": "82BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T15:59:03.958000Z",
         "edited": "2014-12-20T21:17:50.451000Z",
         "url": "https://swapi.co/api/people/62/"
@@ -1010,10 +816,7 @@
         "eye_color": "yellow",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T16:40:43.977000Z",
         "edited": "2014-12-20T21:17:50.453000Z",
         "url": "https://swapi.co/api/people/63/"
@@ -1027,10 +830,7 @@
         "eye_color": "blue",
         "birth_year": "58BBY",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T16:45:53.668000Z",
         "edited": "2014-12-20T21:17:50.455000Z",
         "url": "https://swapi.co/api/people/64/"
@@ -1044,9 +844,7 @@
         "eye_color": "blue",
         "birth_year": "40BBY",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T16:46:40.440000Z",
         "edited": "2014-12-20T21:17:50.457000Z",
         "url": "https://swapi.co/api/people/65/"
@@ -1059,9 +857,7 @@
         "eye_color": "brown",
         "birth_year": "unknown",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T16:49:14.640000Z",
         "edited": "2014-12-20T21:17:50.460000Z",
         "url": "https://swapi.co/api/people/66/"
@@ -1075,10 +871,7 @@
         "eye_color": "brown",
         "birth_year": "102BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T16:52:14.726000Z",
         "edited": "2014-12-20T21:17:50.462000Z",
         "url": "https://swapi.co/api/people/67/"
@@ -1091,10 +884,7 @@
         "eye_color": "brown",
         "birth_year": "67BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/",
-            "https://swapi.co/api/films/6/"
-        ],
+        "films": [],
         "created": "2014-12-20T16:53:08.575000Z",
         "edited": "2014-12-20T21:17:50.463000Z",
         "url": "https://swapi.co/api/people/68/"
@@ -1108,9 +898,7 @@
         "eye_color": "brown",
         "birth_year": "66BBY",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T16:54:41.620000Z",
         "edited": "2014-12-20T21:17:50.465000Z",
         "url": "https://swapi.co/api/people/69/"
@@ -1124,9 +912,7 @@
         "eye_color": "yellow",
         "birth_year": "unknown",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T16:57:44.471000Z",
         "edited": "2014-12-20T21:17:50.468000Z",
         "url": "https://swapi.co/api/people/70/"
@@ -1140,9 +926,7 @@
         "eye_color": "yellow",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T17:28:27.248000Z",
         "edited": "2014-12-20T21:17:50.470000Z",
         "url": "https://swapi.co/api/people/71/"
@@ -1156,9 +940,7 @@
         "eye_color": "black",
         "birth_year": "unknown",
         "gender": "male",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T17:30:50.416000Z",
         "edited": "2014-12-20T21:17:50.473000Z",
         "url": "https://swapi.co/api/people/72/"
@@ -1171,9 +953,7 @@
         "eye_color": "black",
         "birth_year": "unknown",
         "gender": "female",
-        "films": [
-            "https://swapi.co/api/films/5/"
-        ],
+        "films": [],
         "created": "2014-12-20T17:31:21.195000Z",
         "edited": "2014-12-20T21:17:50.474000Z",
         "url": "https://swapi.co/api/people/73/"
@@ -1186,9 +966,7 @@
 		"eye_color": "blue",
 		"birth_year": "unknown",
 		"gender": "female",
-		"films": [
-			"https://swapi.co/api/films/5/"
-		],
+		"films": [],
 		"created": "2014-12-20T17:32:51.996000Z",
 		"edited": "2014-12-20T21:17:50.476000Z",
 		"url": "https://swapi.co/api/people/74/"
@@ -1202,9 +980,7 @@
         "eye_color": "unknown",
         "birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/4/"
-		],
+		"films": [],
 		"created": "2014-12-20T09:53:15.086000Z",
 		"edited": "2016-06-30T12:52:19.604868Z",
 		"url": "https://swapi.co/api/people/47/"
@@ -1217,10 +993,7 @@
 		"eye_color": "red, blue",
 		"birth_year": "unknown",
 		"gender": "female",
-		"films": [
-			"https://swapi.co/api/films/5/",
-			"https://swapi.co/api/films/6/"
-		],
+		"films": [],
 		"created": "2014-12-20T17:43:36.409000Z",
 		"edited": "2014-12-20T21:17:50.478000Z",
 		"url": "https://swapi.co/api/people/75/"
@@ -1234,9 +1007,7 @@
 		"eye_color": "unknown",
 		"birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/5/"
-		],
+		"films": [],
 		"created": "2014-12-20T17:53:52.607000Z",
 		"edited": "2014-12-20T21:17:50.481000Z",
 		"url": "https://swapi.co/api/people/76/"
@@ -1249,9 +1020,7 @@
 		"eye_color": "gold",
 		"birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/5/"
-		],
+		"films": [],
 		"created": "2014-12-20T17:58:17.049000Z",
 		"edited": "2014-12-20T21:17:50.484000Z",
 		"url": "https://swapi.co/api/people/77/"
@@ -1265,10 +1034,7 @@
 		"eye_color": "black",
 		"birth_year": "unknown",
 		"gender": "female",
-		"films": [
-			"https://swapi.co/api/films/5/",
-			"https://swapi.co/api/films/6/"
-	    ],
+		"films": [],
 		"created": "2014-12-20T18:44:01.103000Z",
 		"edited": "2014-12-20T21:17:50.486000Z",
 		"url": "https://swapi.co/api/people/78/"
@@ -1282,9 +1048,7 @@
 		"eye_color": "green, yellow",
 		"birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/6/"
-		],
+		"films": [],
 		"created": "2014-12-20T19:43:53.348000Z",
 		"edited": "2014-12-20T21:17:50.488000Z",
 		"url": "https://swapi.co/api/people/79/"
@@ -1298,9 +1062,7 @@
 		"eye_color": "blue",
 		"birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/6/"
-        ],
+		"films": [],
 		"created": "2014-12-20T19:46:34.209000Z",
 		"edited": "2014-12-20T21:17:50.491000Z",
 		"url": "https://swapi.co/api/people/80/"
@@ -1314,10 +1076,7 @@
 		"eye_color": "brown",
 		"birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/6/",
-			"https://swapi.co/api/films/1/"
-		],
+		"films": [],
 		"created": "2014-12-20T19:49:35.583000Z",
 		"edited": "2014-12-20T21:17:50.493000Z",
 		"url": "https://swapi.co/api/people/81/"
@@ -1331,10 +1090,7 @@
 		"eye_color": "white",
 		"birth_year": "unknown",
 		"gender": "female",
-		"films": [
-			"https://swapi.co/api/films/5/",
-			"https://swapi.co/api/films/6/"
-		],
+		"films": [],
 		"created": "2014-12-20T20:18:37.619000Z",
 		"edited": "2014-12-20T21:17:50.496000Z",
 		"url": "https://swapi.co/api/people/82/"
@@ -1348,9 +1104,7 @@
 		"eye_color": "black",
 		"birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/6/"
-		],
+		"films": [],
 		"created": "2014-12-20T20:35:04.260000Z",
 		"edited": "2014-12-20T21:17:50.498000Z",
 		"url": "https://swapi.co/api/people/83/"
@@ -1362,9 +1116,7 @@
 		"eye_color": "dark",
 		"birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/7/"
-		],
+		"films": [],
 		"created": "2015-04-17T06:52:40.793621Z",
 		"edited": "2015-04-17T06:52:40.793674Z",
 		"url": "https://swapi.co/api/people/84/"
@@ -1376,9 +1128,7 @@
 		"eye_color": "hazel",
 		"birth_year": "unknown",
 		"gender": "female",
-		"films": [
-			"https://swapi.co/api/films/7/"
-		],
+		"films": [],
 		"created": "2015-04-17T06:54:01.495077Z",
 		"edited": "2015-04-17T06:54:01.495128Z",
 		"url": "https://swapi.co/api/people/85/"
@@ -1390,9 +1140,7 @@
 		"eye_color": "brown",
 		"birth_year": "unknown",
 		"gender": "male",
-		"films": [
-			"https://swapi.co/api/films/7/"
-		],
+		"films": [],
 		"created": "2015-04-17T06:55:21.622786Z",
 		"edited": "2015-04-17T06:55:21.622835Z",
 		"url": "https://swapi.co/api/people/86/"
@@ -1404,9 +1152,7 @@
 		"eye_color": "black",
 		"birth_year": "unknown",
 		"gender": "none",
-		"films": [
-			"https://swapi.co/api/films/7/"
-        ],
+		"films": [],
         "created": "2015-04-17T06:57:38.061346Z",
 		"edited": "2015-04-17T06:57:38.061453Z",
 		"url": "https://swapi.co/api/people/87/"
@@ -1418,9 +1164,7 @@
 		"eye_color": "unknown",
 		"birth_year": "unknown",
 		"gender": "female",
-		"films": [
-			"https://swapi.co/api/films/7/"
-		],
+		"films": [],
 		"created": "2015-10-13T10:35:39.229823Z",
 		"edited": "2015-10-13T10:35:39.229894Z",
 		"url": "https://swapi.co/api/people/88/"
@@ -1434,11 +1178,7 @@
 		"eye_color": "brown",
 		"birth_year": "46BBY",
 		"gender": "female",
-		"films": [
-			"https://swapi.co/api/films/5/",
-			"https://swapi.co/api/films/4/",
-			"https://swapi.co/api/films/6/"
-		],
+		"films": [],
 		"created": "2014-12-19T17:28:26.926000Z",
 		"edited": "2016-04-20T17:06:31.502555Z",
 		"url": "https://swapi.co/api/people/35/"
