@@ -7,9 +7,14 @@ router.get("/", (req, res) => {
     Character.find({}).then(characters => res.json(characters));
 });
 
-router.get("/:name", (req, res) => {
+router.get("/:id", (req,res) => {
+    Character.find({ _id: req.params._id})
+    .then(character => res.json(character))
+})
+
+router.get("/name/:name", (req, res) => {
     Character.find({ name: req.params.name})
-    .then(characters => res.json(characters));
+    .then(character => res.json(character));
 });
 
 router.post("/", (req,res) => {
@@ -17,13 +22,26 @@ router.post("/", (req,res) => {
     .then(character => res.json(character));
 });
 
-router.put("/:name", (req, res) => {
+router.put("/:id", (req, res) => {
+    Character.findOneAndUpdate({ _id: req.params._id}, req.body,
+    {new: true})
+    .then(character => res.json(character));
+});
+
+router.put("/name/:name", (req, res) => {
     Character.findOneAndUpdate({ name: req.params.name}, req.body,
     {new: true})
     .then(character => res.json(character));
 });
 
-router.delete("/:name", (req, res) => {
+router.delete("/:id", (req, res) => {
+    Character.findOneAndDelete({ _id: req.params._id})
+    .then(character => {
+    res.json(character);
+    });
+});
+
+router.delete("/name/:name", (req, res) => {
     Character.findOneAndDelete({ name: req.params.name})
     .then(character => {
     res.json(character);
