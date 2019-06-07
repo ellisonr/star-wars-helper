@@ -6,20 +6,19 @@ Star Wars Helper
 This API is intended for use by fans of the movie franchise Star Wars. Users of this API will have the ability to browse data on Star Wars
 * characters
 * starships
-and
 * films
 
-Users will be able to see which characters and starships are in certain films, which starships certain characters piloted, and many other fun facts.
+Users will be able to see which characters piloted certain starships, which films any character appears in, and many other fun facts.
 
 ## Technologies Used
 
-* API was created by using Express and Mongoose
+* API was created by using Express, Mongoose, Node.js
 * Deployed via Heroku
-* Hosted by Mongo Atlas
+* Hosted by MongoDB Atlas
+* Testing completed on Postman
 
-## dependencies
+## Dependencies
 
-* "axios": "^0.19.0",
-* "express": "^4.17.1",
-* "mongoose": "^5.5.13",
-* "nodemon": "^1.19.1",
+* "express": "^4.17.1"
+* "mongoose": "^5.5.13"
+* "nodemon": "^1.19.1"
