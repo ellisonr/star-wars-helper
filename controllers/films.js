@@ -32,11 +32,13 @@ router.put("/update/id/:id", (req, res) => {
         .then(film => res.json(film));
 });
 
-router.put("/udpate/title/:title", (req, res) => {
+router.put("/update/title/:title", (req, res) => {
     Film.findOneAndUpdate({ title: req.params.title}, req.body,
         {new: true})
         .then(film => res.json(film));
 });
+
+//ALL PUT ROUTES ARE WORKING
 
 router.delete("/delete/id/:id", (req, res) => {
     Film.findOneAndDelete({ _id: req.params.id})

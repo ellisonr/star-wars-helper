@@ -38,6 +38,8 @@ router.put("/update/name/:name", (req, res) => {
     .then(starship => res.json(starship));
 });
 
+//ALL PUT ROUTES ARE WORKING
+
 router.delete("/delete/id/:id", (req, res) => {
     Starship.findOneAndDelete({ _id: req.params.id})
     .then(starship => {

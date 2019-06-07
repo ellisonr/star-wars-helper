@@ -38,6 +38,8 @@ router.put("/update/name/:name", (req, res) => {
     .then(character => res.json(character));
 });
 
+//ALL PUT ROUTES ARE WORKING
+
 router.delete("/delete/id/:id", (req, res) => {
     Character.findOneAndDelete({ _id: req.params.id})
     .then(character => {
