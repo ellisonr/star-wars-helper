@@ -7,7 +7,7 @@ router.get("/", (req, res) => {
     Film.find({}).then(films => res.json(films));
     });
 
-router.get("/:id", (req,res) => {
+router.get("/id/:id", (req,res) => {
     Film.find({ _id: req.params._id})
     .then(film => res.json(film))
     })
@@ -17,31 +17,31 @@ router.get("/title/:title", (req, res) => {
     .then(film => res.json(film));
 });
 
-router.post("/", (req, res) => {
+router.post("/create", (req, res) => {
     Film.create(req.body)
     .then(film => res.json(film));
 });
 
-router.put("/:id", (req, res) => {
+router.put("/update/id/:id", (req, res) => {
     Film.findOneAndUpdate({ _id: req.params._id}, req.body,
         {new: true})
         .then(film => res.json(film));
 });
 
-router.put("/title/:title", (req, res) => {
+router.put("/udpate/title/:title", (req, res) => {
     Film.findOneAndUpdate({ title: req.params.title}, req.body,
         {new: true})
         .then(film => res.json(film));
 });
 
-router.delete("/:id", (req, res) => {
+router.delete("/delete/id/:id", (req, res) => {
     Film.findOneAndDelete({ _id: req.params._id})
     .then(film => {
     res.json(film);
     });
 });
 
-router.delete("/title/:title", (req, res) => {
+router.delete("/delete/title/:title", (req, res) => {
     Film.findOneAndDelete({ title: req.params.title})
     .then(film => {
     res.json(film);
