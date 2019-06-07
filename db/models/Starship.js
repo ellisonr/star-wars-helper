@@ -43,12 +43,6 @@ const StarshipSchema = new mongoose.Schema({
             ref: "Character"
         }
     ],
-    films: [
-        {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Film"
-        }
-    ],
     created: {
         type: Date
     },

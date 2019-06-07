@@ -26,16 +26,6 @@
             "https://swapi.co/api/people/19/",
             "https://swapi.co/api/people/81/"
         ],
-        "starships": [
-            "https://swapi.co/api/starships/2/",
-            "https://swapi.co/api/starships/3/",
-            "https://swapi.co/api/starships/5/",
-            "https://swapi.co/api/starships/9/",
-            "https://swapi.co/api/starships/10/",
-            "https://swapi.co/api/starships/11/",
-            "https://swapi.co/api/starships/12/",
-            "https://swapi.co/api/starships/13/"
-        ],
         "created": "2014-12-10T14:23:31.880000Z",
         "edited": "2015-04-11T09:46:52.774897Z",
         "url": "https://swapi.co/api/films/1/"
@@ -89,17 +79,6 @@
             "https://swapi.co/api/people/82/",
             "https://swapi.co/api/people/35/"
         ],
-        "starships": [
-            "https://swapi.co/api/starships/21/",
-            "https://swapi.co/api/starships/39/",
-            "https://swapi.co/api/starships/43/",
-            "https://swapi.co/api/starships/47/",
-            "https://swapi.co/api/starships/48/",
-            "https://swapi.co/api/starships/49/",
-            "https://swapi.co/api/starships/32/",
-            "https://swapi.co/api/starships/52/",
-            "https://swapi.co/api/starships/58/"
-        ],
         "created": "2014-12-20T10:57:57.886000Z",
         "edited": "2015-04-11T09:45:01.623982Z",
         "url": "https://swapi.co/api/films/5/"
@@ -146,13 +125,6 @@
             "https://swapi.co/api/people/59/",
             "https://swapi.co/api/people/47/",
             "https://swapi.co/api/people/35/"
-        ],
-        "starships": [
-            "https://swapi.co/api/starships/40/",
-            "https://swapi.co/api/starships/41/",
-            "https://swapi.co/api/starships/31/",
-            "https://swapi.co/api/starships/32/",
-            "https://swapi.co/api/starships/39/"
         ],
         "created": "2014-12-19T16:52:55.740000Z",
         "edited": "2015-04-11T09:45:18.689301Z",
@@ -201,20 +173,6 @@
             "https://swapi.co/api/people/83/",
             "https://swapi.co/api/people/35/"
         ],
-        "starships": [
-            "https://swapi.co/api/starships/48/",
-            "https://swapi.co/api/starships/59/",
-            "https://swapi.co/api/starships/61/",
-            "https://swapi.co/api/starships/32/",
-            "https://swapi.co/api/starships/63/",
-            "https://swapi.co/api/starships/64/",
-            "https://swapi.co/api/starships/65/",
-            "https://swapi.co/api/starships/66/",
-            "https://swapi.co/api/starships/74/",
-            "https://swapi.co/api/starships/75/",
-            "https://swapi.co/api/starships/2/",
-            "https://swapi.co/api/starships/68/"
-        ],
         "created": "2014-12-20T18:49:38.403000Z",
         "edited": "2015-04-11T09:45:44.862122Z",
         "url": "https://swapi.co/api/films/6/"
@@ -248,20 +206,6 @@
             "https://swapi.co/api/people/31/",
             "https://swapi.co/api/people/45/"
         ],
-        "starships": [
-            "https://swapi.co/api/starships/15/",
-            "https://swapi.co/api/starships/10/",
-            "https://swapi.co/api/starships/11/",
-            "https://swapi.co/api/starships/12/",
-            "https://swapi.co/api/starships/22/",
-            "https://swapi.co/api/starships/23/",
-            "https://swapi.co/api/starships/27/",
-            "https://swapi.co/api/starships/28/",
-            "https://swapi.co/api/starships/29/",
-            "https://swapi.co/api/starships/3/",
-            "https://swapi.co/api/starships/17/",
-            "https://swapi.co/api/starships/2/"
-        ],
         "created": "2014-12-18T10:39:33.255000Z",
         "edited": "2015-04-11T09:46:05.220365Z",
         "url": "https://swapi.co/api/films/3/"
@@ -291,17 +235,6 @@
             "https://swapi.co/api/people/25/",
             "https://swapi.co/api/people/26/"
         ],
-        "starships": [
-            "https://swapi.co/api/starships/15/",
-            "https://swapi.co/api/starships/10/",
-            "https://swapi.co/api/starships/11/",
-            "https://swapi.co/api/starships/12/",
-            "https://swapi.co/api/starships/21/",
-            "https://swapi.co/api/starships/22/",
-            "https://swapi.co/api/starships/23/",
-            "https://swapi.co/api/starships/3/",
-            "https://swapi.co/api/starships/17/"
-        ],
         "created": "2014-12-12T11:26:24.656000Z",
         "edited": "2017-04-19T10:57:29.544256Z",
         "url": "https://swapi.co/api/films/2/"
@@ -325,10 +258,6 @@
             "https://swapi.co/api/people/86/",
             "https://swapi.co/api/people/87/",
             "https://swapi.co/api/people/88/"
-        ],
-        "starships": [
-            "https://swapi.co/api/starships/77/",
-            "https://swapi.co/api/starships/10/"
         ],
         "created": "2015-04-17T06:51:30.504780Z",
         "edited": "2015-12-17T14:31:47.617768Z",

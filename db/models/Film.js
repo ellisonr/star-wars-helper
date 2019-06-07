@@ -29,10 +29,6 @@ const FilmSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "Character"
     },
-    starships: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Starship"
-    },
     created: {
         type: Date
     },

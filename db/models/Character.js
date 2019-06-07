@@ -33,12 +33,6 @@ const CharacterSchema = new mongoose.Schema({
         ref: "Film"
         }
     ],
-    starships: [
-        {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Starship"
-        }
-    ],
     created: {
         type: Date
     },

@@ -8,6 +8,12 @@ const Character = require("./models/Character");
 const Film = require("./models/Film");
 const Starship = require("./models/Starship");
 
+const swapi = require('swapi-node');
+
+swapi.getPerson(1).then((result) => {
+    console.log(result);
+});
+
 Character.deleteMany({})
 .then (() => {
     Character.create(charactersData)
