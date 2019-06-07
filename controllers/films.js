@@ -8,7 +8,7 @@ router.get("/", (req, res) => {
     });
 
 router.get("/id/:id", (req,res) => {
-    Film.find({ _id: req.params._id})
+    Film.find({ _id: req.params.id})
     .then(film => res.json(film))
     })
 
@@ -17,13 +17,17 @@ router.get("/title/:title", (req, res) => {
     .then(film => res.json(film));
 });
 
+//ALL GET ROUTES ARE WORKING
+
 router.post("/create", (req, res) => {
     Film.create(req.body)
     .then(film => res.json(film));
 });
 
+//POST ROUTE IS WORKING
+
 router.put("/update/id/:id", (req, res) => {
-    Film.findOneAndUpdate({ _id: req.params._id}, req.body,
+    Film.findOneAndUpdate({ _id: req.params.id}, req.body,
         {new: true})
         .then(film => res.json(film));
 });
@@ -35,7 +39,7 @@ router.put("/udpate/title/:title", (req, res) => {
 });
 
 router.delete("/delete/id/:id", (req, res) => {
-    Film.findOneAndDelete({ _id: req.params._id})
+    Film.findOneAndDelete({ _id: req.params.id})
     .then(film => {
     res.json(film);
     });
@@ -47,5 +51,7 @@ router.delete("/delete/title/:title", (req, res) => {
     res.json(film);
     });
 });
+
+//ALL DELETE ROUTES ARE WORKING
 
 module.exports = router;
