@@ -27,10 +27,10 @@ const CharacterSchema = new mongoose.Schema({
     gender: {
         type: String
     },
-    films: [
+    home_planet: [
         {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Film"
+        ref: "Planet"
         }
     ],
     created: {

@@ -1,11 +1,16 @@
 const mongoose = require("./connection");
 
 const charactersData = require("./characters.json");
-const filmsData = require("./films.json");
+const planetsData = require("./planets.json");
 const starshipsData = require("./starships.json");
 
+// we need to make another three modelDataSeed arrays that remove the related fields in the 
+// json (because they conflict with the expected ObjectIds in the Model Schemas)
+
+// we can do that with Array.map
+
 const Character = require("./models/Character");
-const Film = require("./models/Film");
+const Planet = require("./models/Planet");
 const Starship = require("./models/Starship");
 
 Character.deleteMany({})
@@ -19,11 +24,11 @@ Character.deleteMany({})
     })
 });
 
-Film.deleteMany({})
+Planet.deleteMany({})
 .then (() => {
-    Film.create(filmsData)
-    .then(newFilm => {
-        console.log(newFilm)
+    Planet.create(planetsData)
+    .then(newPlanet => {
+        console.log(newPlanet)
     })
     .catch(err => {
         console.log(err)
