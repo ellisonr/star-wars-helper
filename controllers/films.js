@@ -5,6 +5,11 @@ const Film = require("../db/models/Film");
 
 router.get("/", (req, res) => {
     Film.find({}).then(films => res.json(films));
+    // Film.find({})
+    //     .populate("characters")
+    //     .exec((err, films) => {
+    //         res.json(films)
+    //     })
     });
 
 router.get("/id/:id", (req,res) => {
