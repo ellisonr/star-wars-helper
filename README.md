@@ -6,9 +6,9 @@ Star Wars Helper
 This API is intended for use by fans of the movie franchise Star Wars. Users of this API will have the ability to browse data on Star Wars
 * characters
 * starships
-* films
+* planets
 
-Users will be able to see which characters piloted certain starships, which films any character appears in, and many other fun facts.
+Users will be able to see which characters piloted certain starships, which planets a certain character is from, and many other fun facts.
 
 ## Technologies Used
 
@@ -61,23 +61,23 @@ This path will delete a starship based on its _id.
 ##### /api/starships/delete/name/:name
 This path will delete a starship based on its name.
 
-### Films
-##### /api/films/
-When set to "get", this will return all films.
-##### /api/films/id/:id
-This path will return a single film based on its _id.
-##### /api/films/title/:title
-This path will return a single film based on its name.
-##### /api/films/create
-This path will create a new film entry.
-##### /api/films/update/id/:id
-This path will update a film based on its _id.
-##### /api/films/update/title/:title
-This path will update a film based on its name.
-##### /api/films/delete/id/:id
-This path will delete a film based on its _id.
-##### /api/films/delete/title/:title
-This path will delete a film based on its name.
+### Planets
+##### /api/planets/
+When set to "get", this will return all planets.
+##### /api/planets/id/:id
+This path will return a single planet based on its _id.
+##### /api/planets/title/:title
+This path will return a single planet based on its name.
+##### /api/planets/create
+This path will create a new planet entry.
+##### /api/planets/update/id/:id
+This path will update a planet based on its _id.
+##### /api/planets/update/title/:title
+This path will update a planet based on its name.
+##### /api/planets/delete/id/:id
+This path will delete a planet based on its _id.
+##### /api/planets/delete/title/:title
+This path will delete a planet based on its name.
 
 ## Object Examples
 
@@ -119,18 +119,21 @@ This path will delete a film based on its name.
 }
 ```
 
-### Film
+### Planet
 ```
 {
-    "title": "A New Hope",
-    "episode_id": 4,
-    "opening_crawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
-    "director": "George Lucas",
-    "producer": "Gary Kurtz, Rick McCallum",
-    "release_date": "1977-05-25",
-    "characters": [],
-    "created": "2014-12-10T14:23:31.880000Z",
-    "edited": "2015-04-11T09:46:52.774897Z",
-    "url": "https://swapi.co/api/films/1/"
+    "name": "Alderaan",
+    "rotation_period": "24",
+    "orbital_period": "364",
+    "diameter": "12500",
+    "climate": "temperate",
+    "gravity": "1 standard",
+    "terrain": "grasslands, mountains",
+    "surface_water": "40",
+    "population": "2000000000",
+    "residents": [],
+    "created": "2014-12-10T11:35:48.479000Z",
+    "edited": "2014-12-20T20:58:18.420000Z",
+    "url": "https://swapi.co/api/planets/2/"
 }
 ```
