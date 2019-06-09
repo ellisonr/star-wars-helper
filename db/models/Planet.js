@@ -7,15 +7,12 @@ const PlanetSchema = new mongoose.Schema({
     },
     rotation_period: {
         type: Number,
-        required: true
     },
     orbital_period: {
         type: Number,
-        required: true
     },
     diameter: {
         type: Number,
-        required: true
     },
     climate: {
         type: String
@@ -32,12 +29,6 @@ const PlanetSchema = new mongoose.Schema({
     population: {
         Type: Number
     },
-    residents:[
-        {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Character"
-        }
-    ],
     created: {
         type: Date
     },

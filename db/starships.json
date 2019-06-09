@@ -11,7 +11,7 @@
         "consumables": "2 months",
         "hyperdrive_rating": 0.5,
         "starship_class": "Light freighter",
-        "pilots": [],
+        "pilots": ["Chewbacca","Han Solo","Lando Calrissian"],
         "created": "2014-12-10T16:59:45.094000Z",
         "edited": "2014-12-22T17:35:44.464156Z",
         "url": "https://swapi.co/api/starships/10/"
@@ -28,7 +28,7 @@
         "consumables": "1 week",
         "hyperdrive_rating": 1.0,
         "starship_class": "Starfighter",
-        "pilots": [],
+        "pilots": ["Luke Skywalker","Biggs Darklighter","Wedge Antilles","Jek Tono Porkins"],
         "created": "2014-12-12T11:19:05.340000Z",
         "edited": "2014-12-22T17:35:44.491233Z",
         "url": "https://swapi.co/api/starships/12/"
@@ -44,7 +44,7 @@
         "consumables": "5 days",
         "hyperdrive_rating": 1.0,
         "starship_class": "Starfighter",
-        "pilots": [],
+        "pilots": ["Darth Vader"],
         "created": "2014-12-12T11:21:32.991000Z",
         "edited": "2014-12-22T17:35:44.549047Z",
         "url": "https://swapi.co/api/starships/13/"
@@ -60,7 +60,7 @@
         "consumables": "1 month",
         "hyperdrive_rating": 3.0,
         "starship_class": "Patrol craft",
-        "pilots": [],
+        "pilots": ["Boba Fett"],
         "created": "2014-12-15T13:00:56.332000Z",
         "edited": "2014-12-22T17:35:44.716273Z",
         "url": "https://swapi.co/api/starships/21/"
@@ -77,27 +77,10 @@
         "consumables": "2 months",
         "hyperdrive_rating": 1.0,
         "starship_class": "Armed government transport",
-        "pilots": [],
+        "pilots": ["Luke Skywalker","Chewbacca","Han Solo"],
         "created": "2014-12-15T13:04:47.235000Z",
         "edited": "2014-12-22T17:35:44.795405Z",
         "url": "https://swapi.co/api/starships/22/"
-    },
-    {
-        "name": "A-wing",
-        "model": "RZ-1 A-wing Interceptor",
-        "manufacturer": "Alliance Underground Engineering, Incom Corporation",
-        "cost_in_credits": 175000,
-        "length": 9.6,
-        "crew": 1,
-        "passengers": 0,
-        "cargo_capacity": 40,
-        "consumables": "1 week",
-        "hyperdrive_rating": 1.0,
-        "starship_class": "Starfighter",
-        "pilots": [],
-        "created": "2014-12-18T11:16:34.542000Z",
-        "edited": "2014-12-22T17:35:44.978754Z",
-        "url": "https://swapi.co/api/starships/28/"
     },
     {
         "name": "Naboo fighter",
@@ -111,40 +94,10 @@
         "consumables": "7 days",
         "hyperdrive_rating": 1.0,
         "starship_class": "Starfighter",
-        "pilots": [],
+        "pilots": ["Anakin Skywalker"],
         "created": "2014-12-19T17:39:17.582000Z",
         "edited": "2014-12-22T17:35:45.079452Z",
         "url": "https://swapi.co/api/starships/39/"
-    },
-    {
-        "name": "Naboo Royal Starship",
-        "model": "J-type 327 Nubian royal starship",
-        "manufacturer": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives",
-        "length": 76,        
-        "crew": 8,
-        "hyperdrive_rating": 1.8,
-        "starship_class": "yacht",
-        "pilots": [],
-        "created": "2014-12-19T17:45:03.506000Z",
-        "edited": "2014-12-22T17:35:45.091925Z",
-        "url": "https://swapi.co/api/starships/40/"
-    },
-    {
-        "name": "Scimitar",
-        "model": "Star Courier",
-        "manufacturer": "Republic Sienar Systems",
-        "cost_in_credits": 55000000,
-        "length": 26.5,
-        "crew": 1,
-        "passengers": 6,
-        "cargo_capacity": 2500000,
-        "consumables": "30 days",
-        "hyperdrive_rating": 1.5,
-        "starship_class": "Space Transport",
-        "pilots": [],
-        "created": "2014-12-20T09:39:56.116000Z",
-        "edited": "2014-12-22T17:35:45.105522Z",
-        "url": "https://swapi.co/api/starships/41/"
     },
     {
         "name": "Jedi starfighter",
@@ -158,23 +111,10 @@
         "consumables": "7 days",
         "hyperdrive_rating": 1.0,
         "starship_class": "Starfighter",
-        "pilots": [],
+        "pilots": ["Obi-Wan Kenobi"],
         "created": "2014-12-20T17:35:23.906000Z",
         "edited": "2014-12-22T17:35:45.147746Z",
         "url": "https://swapi.co/api/starships/48/"
-    },
-    {
-        "name": "H-type Nubian yacht",
-        "model": "H-type Nubian yacht",
-        "manufacturer": "Theed Palace Space Vessel Engineering Corps",
-        "length": 47.9,
-        "crew": 4,
-        "hyperdrive_rating": 0.9,
-        "starship_class": "yacht",
-        "pilots": [],
-        "created": "2014-12-20T17:46:46.847000Z",
-        "edited": "2014-12-22T17:35:45.158969Z",
-        "url": "https://swapi.co/api/starships/49/"
     },
     {
         "name": "Trade Federation cruiser",
@@ -188,21 +128,10 @@
         "consumables": "4 years",
         "hyperdrive_rating": 1.5,
         "starship_class": "capital ship",
-        "pilots": [],
+        "pilots": ["Obi-Wan Kenobi","Anakin Skywalker"],
         "created": "2014-12-20T19:40:21.902000Z",
         "edited": "2014-12-22T17:35:45.195165Z",
         "url": "https://swapi.co/api/starships/59/"
-    },
-    {
-        "name": "T-70 X-wing fighter",
-        "model": "T-70 X-wing fighter",
-        "manufacturer": "Incom",
-        "crew": 1,
-        "starship_class": "fighter",
-        "pilots": [],
-        "created": "2015-04-17T06:58:50.614475Z",
-        "edited": "2015-04-17T06:58:50.614528Z",
-        "url": "https://swapi.co/api/starships/77/"
     },
     {
         "name": "Naboo star skiff",
@@ -213,7 +142,7 @@
         "passengers": 3,
         "hyperdrive_rating": 0.5,
         "starship_class": "yacht",
-        "pilots": [],
+        "pilots": ["Obi-Wan Kenobi"],
         "created": "2014-12-20T19:55:15.396000Z",
         "edited": "2014-12-22T17:35:45.258859Z",
         "url": "https://swapi.co/api/starships/64/"
@@ -230,7 +159,7 @@
         "consumables": "2 days",
         "hyperdrive_rating": 1.0,
         "starship_class": "starfighter",
-        "pilots": [],
+        "pilots": ["Obi-Wan Kenobi","Anakin Skywalker"],
         "created": "2014-12-20T19:56:57.468000Z",
         "edited": "2014-12-22T17:35:45.272349Z",
         "url": "https://swapi.co/api/starships/65/"
@@ -247,7 +176,7 @@
         "consumables": "7 days",
         "hyperdrive_rating": 6,
         "starship_class": "starfighter",
-        "pilots": [],
+        "pilots": ["Obi-Wan Kenobi"],
         "created": "2014-12-20T20:38:05.031000Z",
         "edited": "2014-12-22T17:35:45.381900Z",
         "url": "https://swapi.co/api/starships/74/"

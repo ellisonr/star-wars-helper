@@ -1,5 +1,19 @@
 [
     {
+        "name": "Tatooine",
+        "rotation_period": "23",
+        "orbital_period": "304",
+        "diameter": "10465",
+        "climate": "arid",
+        "gravity": "1 standard",
+        "terrain": "desert",
+        "surface_water": "1",
+        "population": "200000",
+        "created": "2014-12-09T13:50:49.641000Z",
+        "edited": "2014-12-21T20:48:04.175778Z",
+        "url": "https://swapi.co/api/planets/1/"
+    },
+    {
         "name": "Alderaan",
         "rotation_period": "24",
         "orbital_period": "364",
@@ -9,11 +23,6 @@
         "terrain": "grasslands, mountains",
         "surface_water": "40",
         "population": "2000000000",
-        "residents": [
-            "https://swapi.co/api/people/5/",
-            "https://swapi.co/api/people/68/",
-            "https://swapi.co/api/people/81/"
-        ],
         "created": "2014-12-10T11:35:48.479000Z",
         "edited": "2014-12-20T20:58:18.420000Z",
         "url": "https://swapi.co/api/planets/2/"
@@ -28,29 +37,9 @@
         "terrain": "gas giant",
         "surface_water": "0",
         "population": "6000000",
-        "residents": [
-            "https://swapi.co/api/people/26/"
-        ],
         "created": "2014-12-10T11:43:55.240000Z",
         "edited": "2014-12-20T20:58:18.427000Z",
         "url": "https://swapi.co/api/planets/6/"
-    },
-    {
-        "name": "Endor",
-        "rotation_period": "18",
-        "orbital_period": "402",
-        "diameter": "4900",
-        "climate": "temperate",
-        "gravity": "0.85 standard",
-        "terrain": "forests, mountains, lakes",
-        "surface_water": "8",
-        "population": "30000000",
-        "residents": [
-            "https://swapi.co/api/people/30/"
-        ],
-        "created": "2014-12-10T11:50:29.349000Z",
-        "edited": "2014-12-20T20:58:18.429000Z",
-        "url": "https://swapi.co/api/planets/7/"
     },
     {
         "name": "Naboo",
@@ -62,41 +51,9 @@
         "terrain": "grassy hills, swamps, forests, mountains",
         "surface_water": "12",
         "population": "4500000000",
-        "residents": [
-            "https://swapi.co/api/people/3/",
-            "https://swapi.co/api/people/21/",
-            "https://swapi.co/api/people/36/",
-            "https://swapi.co/api/people/37/",
-            "https://swapi.co/api/people/38/",
-            "https://swapi.co/api/people/39/",
-            "https://swapi.co/api/people/42/",
-            "https://swapi.co/api/people/60/",
-            "https://swapi.co/api/people/61/",
-            "https://swapi.co/api/people/66/",
-            "https://swapi.co/api/people/35/"
-        ],
         "created": "2014-12-10T11:52:31.066000Z",
         "edited": "2014-12-20T20:58:18.430000Z",
         "url": "https://swapi.co/api/planets/8/"
-    },
-    {
-        "name": "Coruscant",
-        "rotation_period": "24",
-        "orbital_period": "368",
-        "diameter": "12240",
-        "climate": "temperate",
-        "gravity": "1 standard",
-        "terrain": "cityscape, mountains",
-        "surface_water": "unknown",
-        "population": "1000000000000",
-        "residents": [
-            "https://swapi.co/api/people/34/",
-            "https://swapi.co/api/people/55/",
-            "https://swapi.co/api/people/74/"
-        ],
-        "created": "2014-12-10T11:54:13.921000Z",
-        "edited": "2014-12-20T20:58:18.432000Z",
-        "url": "https://swapi.co/api/planets/9/"
     },
     {
         "name": "Kamino",
@@ -108,48 +65,9 @@
         "terrain": "ocean",
         "surface_water": "100",
         "population": "1000000000",
-        "residents": [
-            "https://swapi.co/api/people/22/",
-            "https://swapi.co/api/people/72/",
-            "https://swapi.co/api/people/73/"
-        ],
         "created": "2014-12-10T12:45:06.577000Z",
         "edited": "2014-12-20T20:58:18.434000Z",
         "url": "https://swapi.co/api/planets/10/"
-    },
-    {
-        "name": "Geonosis",
-        "rotation_period": "30",
-        "orbital_period": "256",
-        "diameter": "11370",
-        "climate": "temperate, arid",
-        "gravity": "0.9 standard",
-        "terrain": "rock, desert, mountain, barren",
-        "surface_water": "5",
-        "population": "100000000000",
-        "residents": [
-            "https://swapi.co/api/people/63/"
-        ],
-        "created": "2014-12-10T12:47:22.350000Z",
-        "edited": "2014-12-20T20:58:18.437000Z",
-        "url": "https://swapi.co/api/planets/11/"
-    },
-    {
-        "name": "Utapau",
-        "rotation_period": "27",
-        "orbital_period": "351",
-        "diameter": "12900",
-        "climate": "temperate, arid, windy",
-        "gravity": "1 standard",
-        "terrain": "scrublands, savanna, canyons, sinkholes",
-        "surface_water": "0.9",
-        "population": "95000000",
-        "residents": [
-            "https://swapi.co/api/people/83/"
-        ],
-        "created": "2014-12-10T12:49:01.491000Z",
-        "edited": "2014-12-20T20:58:18.439000Z",
-        "url": "https://swapi.co/api/planets/12/"
     },
     {
         "name": "Kashyyyk",
@@ -161,44 +79,16 @@
         "terrain": "jungle, forests, lakes, rivers",
         "surface_water": "60",
         "population": "45000000",
-        "residents": [
-            "https://swapi.co/api/people/13/",
-            "https://swapi.co/api/people/80/"
-        ],
         "created": "2014-12-10T13:32:00.124000Z",
         "edited": "2014-12-20T20:58:18.442000Z",
         "url": "https://swapi.co/api/planets/14/"
     },
     {
-        "name": "Cato Neimoidia",
-        "rotation_period": "25",
-        "orbital_period": "278",
-        "diameter": "0",
-        "climate": "temperate, moist",
-        "gravity": "1 standard",
-        "terrain": "mountains, fields, forests, rock arches",
-        "surface_water": "unknown",
-        "population": "10000000",
-        "residents": [
-            "https://swapi.co/api/people/33/"
-        ],
-        "created": "2014-12-10T13:46:28.704000Z",
-        "edited": "2014-12-20T20:58:18.449000Z",
-        "url": "https://swapi.co/api/planets/18/"
-    },
-    {
         "name": "Stewjon",
-        "rotation_period": "unknown",
-        "orbital_period": "unknown",
         "diameter": "0",
         "climate": "temperate",
         "gravity": "1 standard",
         "terrain": "grass",
-        "surface_water": "unknown",
-        "population": "unknown",
-        "residents": [
-            "https://swapi.co/api/people/10/"
-        ],
         "created": "2014-12-10T16:16:26.566000Z",
         "edited": "2014-12-20T20:58:18.452000Z",
         "url": "https://swapi.co/api/planets/20/"
@@ -211,11 +101,7 @@
         "climate": "polluted",
         "gravity": "1 standard",
         "terrain": "cityscape",
-        "surface_water": "unknown",
         "population": "22000000000",
-        "residents": [
-            "https://swapi.co/api/people/12/"
-        ],
         "created": "2014-12-10T16:26:54.384000Z",
         "edited": "2014-12-20T20:58:18.454000Z",
         "url": "https://swapi.co/api/planets/21/"
@@ -230,30 +116,9 @@
         "terrain": "plains, urban, hills, forests",
         "surface_water": "70",
         "population": "3000000000",
-        "residents": [
-            "https://swapi.co/api/people/14/",
-            "https://swapi.co/api/people/18/"
-        ],
         "created": "2014-12-10T16:49:12.453000Z",
         "edited": "2014-12-20T20:58:18.456000Z",
         "url": "https://swapi.co/api/planets/22/"
-    },
-    {
-        "name": "Rodia",
-        "rotation_period": "29",
-        "orbital_period": "305",
-        "diameter": "7549",
-        "climate": "hot",
-        "gravity": "1 standard",
-        "terrain": "jungles, oceans, urban, swamps",
-        "surface_water": "60",
-        "population": "1300000000",
-        "residents": [
-            "https://swapi.co/api/people/15/"
-        ],
-        "created": "2014-12-10T17:03:28.110000Z",
-        "edited": "2014-12-20T20:58:18.458000Z",
-        "url": "https://swapi.co/api/planets/23/"
     },
     {
         "name": "Nal Hutta",
@@ -263,11 +128,7 @@
         "climate": "temperate",
         "gravity": "1 standard",
         "terrain": "urban, oceans, swamps, bogs",
-        "surface_water": "unknown",
         "population": "7000000000",
-        "residents": [
-            "https://swapi.co/api/people/16/"
-        ],
         "created": "2014-12-10T17:11:29.452000Z",
         "edited": "2014-12-20T20:58:18.460000Z",
         "url": "https://swapi.co/api/planets/24/"
@@ -278,42 +139,12 @@
         "orbital_period": "680",
         "diameter": "6400",
         "climate": "temperate",
-        "gravity": "unknown",
         "terrain": "rocky islands, oceans",
         "surface_water": "98",
         "population": "62000000",
-        "residents": [
-            "https://swapi.co/api/people/19/"
-        ],
         "created": "2014-12-12T11:16:55.078000Z",
         "edited": "2014-12-20T20:58:18.463000Z",
         "url": "https://swapi.co/api/planets/26/"
-    },
-    {
-        "name": "unknown",
-        "rotation_period": "0",
-        "orbital_period": "0",
-        "diameter": "0",
-        "climate": "unknown",
-        "gravity": "unknown",
-        "terrain": "unknown",
-        "surface_water": "unknown",
-        "population": "unknown",
-        "residents": [
-            "https://swapi.co/api/people/20/",
-            "https://swapi.co/api/people/23/",
-            "https://swapi.co/api/people/29/",
-            "https://swapi.co/api/people/32/",
-            "https://swapi.co/api/people/75/",
-            "https://swapi.co/api/people/84/",
-            "https://swapi.co/api/people/85/",
-            "https://swapi.co/api/people/86/",
-            "https://swapi.co/api/people/87/",
-            "https://swapi.co/api/people/88/"
-        ],
-        "created": "2014-12-15T12:25:59.569000Z",
-        "edited": "2014-12-20T20:58:18.466000Z",
-        "url": "https://swapi.co/api/planets/28/"
     },
     {
         "name": "Trandosha",
@@ -323,11 +154,7 @@
         "climate": "arid",
         "gravity": "0.62 standard",
         "terrain": "mountains, seas, grasslands, deserts",
-        "surface_water": "unknown",
         "population": "42000000",
-        "residents": [
-            "https://swapi.co/api/people/24/"
-        ],
         "created": "2014-12-15T12:53:47.695000Z",
         "edited": "2014-12-20T20:58:18.468000Z",
         "url": "https://swapi.co/api/planets/29/"
@@ -340,11 +167,7 @@
         "climate": "arid",
         "gravity": "1 standard",
         "terrain": "deserts, mountains",
-        "surface_water": "unknown",
         "population": "300000000",
-        "residents": [
-            "https://swapi.co/api/people/25/"
-        ],
         "created": "2014-12-15T12:56:31.121000Z",
         "edited": "2014-12-20T20:58:18.469000Z",
         "url": "https://swapi.co/api/planets/30/"
@@ -359,11 +182,22 @@
         "terrain": "oceans, reefs, islands",
         "surface_water": "100",
         "population": "27000000000",
-        "residents": [
-            "https://swapi.co/api/people/27/"
-        ],
         "created": "2014-12-18T11:07:01.792000Z",
         "edited": "2014-12-20T20:58:18.471000Z",
         "url": "https://swapi.co/api/planets/31/"
+    },
+    {
+        "name": "Chandrila",
+        "rotation_period": "20",
+        "orbital_period": "368",
+        "diameter": "13500",
+        "climate": "temperate",
+        "gravity": "1",
+        "terrain": "plains, forests",
+        "surface_water": "40",
+        "population": "1200000000",
+        "created": "2014-12-18T11:11:51.872000Z",
+        "edited": "2014-12-20T20:58:18.472000Z",
+        "url": "https://swapi.co/api/planets/32/"
     }
 ]

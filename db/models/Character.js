@@ -27,12 +27,10 @@ const CharacterSchema = new mongoose.Schema({
     gender: {
         type: String
     },
-    home_planet: [
-        {
+    home_planet: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Planet"
-        }
-    ],
+    },
     created: {
         type: Date
     },
