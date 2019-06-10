@@ -27,7 +27,7 @@ const FilmSchema = new mongoose.Schema({
     },
     characters: [
         {
-        type: mongoose.Schema.Types.ObjectId,
+        type: mongoose.Schema.Types.Mixed,
         ref: "Character"
         }
     ],

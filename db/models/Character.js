@@ -28,7 +28,7 @@ const CharacterSchema = new mongoose.Schema({
         type: String
     },
     home_planet: {
-        type: mongoose.Schema.Types.ObjectId,
+        type: mongoose.Schema.Types.Mixed,
         ref: "Planet"
     },
     created: {
