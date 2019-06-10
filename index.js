@@ -11,8 +11,16 @@ app.use(parser.urlencoded({ extended: true}));
 
 app.use(parser.json());
 
+app.get("/", (req, res) => {
+    res.redirect("/api/characters")
+});
+
 app.use("/api/characters/", charactersController);
 app.use("/api/planets/", planetsController);
 app.use("/api/starships", starshipsController);
 
-app.listen(8080, () => console.log("Running on port 8080!"));
+app.set("port", process.env.PORT || 8080);
+
+app.listen(app.get("port"), () => {
+    console.log(`Active on port ${app.get("port")}`)
+})
