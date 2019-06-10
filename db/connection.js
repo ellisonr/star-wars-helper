@@ -6,11 +6,10 @@ let mongoURI = "";
 if (process.env.NODE_ENV === "production") {
 	mongoURI = process.env.DB_URL;
 } else {
-	mongoURI ="mongodb://localhost/star-wars-helper";
+	mongoURI = "mongodb://localhost/star-wars-helper";
 }
 
-mongoose
-.connect(mongoURI, {useNewUrlParser: true })
+mongoose.connect("mongodb://localhost/star-wars-helper", {useNewUrlParser: true })
 .then(instance =>
 	console.log(`Connected to db: ${instance.connections[0].name}`)
 	)
