@@ -30,8 +30,8 @@ Users will be able to see which characters piloted certain starships, which plan
 * ```npm init```
 * ```npm install``` in order to isntall dependencies
 * ```node db/seed.js``` to seed the database
-3. Run mongod
-4. In a separate terminal window, run nodemon.
+3. Run ```mongod```.
+4. In a separate terminal window, run ```nodemon```.
 5. Using a browser, go to localhost:8080/api/characters, localhost:8080/api/planets,
 localhost:8080/api/starships to explore the API. Another option would be to use Postman to send various requrests to the API.
 
