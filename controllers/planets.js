@@ -17,14 +17,10 @@ router.get("/name/:name", (req, res) => {
     .then(planet => res.json(planet));
 });
 
-//ALL GET ROUTES ARE WORKING
-
 router.post("/create", (req, res) => {
     Planet.create(req.body)
     .then(planet => res.json(planet));
 });
-
-//POST ROUTE IS WORKING
 
 router.put("/update/id/:id", (req, res) => {
     Planet.findOneAndUpdate({ _id: req.params.id}, req.body,
@@ -37,8 +33,6 @@ router.put("/update/name/:name", (req, res) => {
     {new: true})
     .then(planet => res.json(planet));
 });
-
-//ALL PUT ROUTES ARE WORKING
 
 router.delete("/delete/id/:id", (req, res) => {
     Planet.findOneAndDelete({ _id: req.params.id})
@@ -53,7 +47,5 @@ router.delete("/delete/name/:name", (req, res) => {
     res.json(planet);
     });
 });
-
-//ALL DELETE ROUTES ARE WORKING
 
 module.exports = router;

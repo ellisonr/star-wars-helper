@@ -17,14 +17,10 @@ router.get("/name/:name", (req, res) => {
     .then(starship => res.json(starship));
 });
 
-//ALL GET ROUTES ARE WORKING
-
 router.post("/create", (req, res) => {
     Starship.create(req.body)
     .then(starship => res.json(starship));
 });
-
-//POST ROUTE IS WORKING
 
 router.put("/update/id/:id", (req, res) => {
     Starship.findOneAndUpdate({ _id: req.params.id}, req.body,
@@ -37,8 +33,6 @@ router.put("/update/name/:name", (req, res) => {
     {new: true})
     .then(starship => res.json(starship));
 });
-
-//ALL PUT ROUTES ARE WORKING
 
 router.delete("/delete/id/:id", (req, res) => {
     Starship.findOneAndDelete({ _id: req.params.id})
@@ -53,7 +47,5 @@ router.delete("/delete/name/:name", (req, res) => {
     res.json(starship);
     });
 });
-
-//ALL DELETE ROUTES ARE WORKING
 
 module.exports = router;

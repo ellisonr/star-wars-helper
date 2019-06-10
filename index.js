@@ -15,8 +15,8 @@ app.get("/", (req, res) => {
     res.redirect("/api/characters")
 });
 
-app.use("/api/characters/", charactersController);
-app.use("/api/planets/", planetsController);
+app.use("/api/characters", charactersController);
+app.use("/api/planets", planetsController);
 app.use("/api/starships", starshipsController);
 
 app.set("port", process.env.PORT || 8080);
