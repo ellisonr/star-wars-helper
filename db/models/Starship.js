@@ -39,7 +39,7 @@ const StarshipSchema = new mongoose.Schema({
     },
     pilots: [
         {
-            type: mongoose.Schema.Types.Mixed,
+            type: mongoose.Schema.Types.ObjectId,
             ref: "Character"
         }
     ],
