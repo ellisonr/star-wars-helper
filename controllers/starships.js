@@ -12,36 +12,36 @@ router.get("/id/:id", (req,res) => {
     .then(starship => res.json(starship))
 })
 
-router.get("/name/:name", (req, res) => {
+router.get("/:name", (req, res) => {
     Starship.find({ name: req.params.name})
     .then(starship => res.json(starship));
 });
 
-router.post("/create", (req, res) => {
+router.post("/", (req, res) => {
     Starship.create(req.body)
     .then(starship => res.json(starship));
 });
 
-router.put("/update/id/:id", (req, res) => {
+router.put("/id/:id", (req, res) => {
     Starship.findOneAndUpdate({ _id: req.params.id}, req.body,
     {new: true})
     .then(starship => res.json(starship));
 });
 
-router.put("/update/name/:name", (req, res) => {
+router.put("/:name", (req, res) => {
     Starship.findOneAndUpdate({ name: req.params.name}, req.body,
     {new: true})
     .then(starship => res.json(starship));
 });
 
-router.delete("/delete/id/:id", (req, res) => {
+router.delete("/id/:id", (req, res) => {
     Starship.findOneAndDelete({ _id: req.params.id})
     .then(starship => {
     res.json(starship);
     });
 });
 
-router.delete("/delete/name/:name", (req, res) => {
+router.delete("/:name", (req, res) => {
     Starship.findOneAndDelete({ name: req.params.name})
     .then(starship => {
     res.json(starship);
