@@ -1,5 +1,9 @@
 const mongoose = require("./connection");
 
+const Character = require("./models/Character");
+const Planet = require("./models/Planet");
+const Starship = require("./models/Starship");
+
 const charactersData = require("./characters.json");
 const planetsData = require("./planets.json");
 const starshipsData = require("./starships.json");
@@ -9,12 +13,18 @@ const starshipsData = require("./starships.json");
 
 // we can do that with Array.map
 
-const Character = require("./models/Character");
-const Planet = require("./models/Planet");
-const Starship = require("./models/Starship");
+//1. use a different js file that's going to make a new json data which is just
+//characters without the home_planet field
 
-Character.deleteMany({})
-.then (() => {
+//2. use this seed file to match up the characters from the original file with the
+//characters from the new file
+
+//3. find homeplanets that have a matching planet name and insert that planet's object id
+// in homeplanet field
+
+Character.deleteMany({}).then (() => {
+    // charactersData.forEach(character => {
+    // })
     Character.create(charactersData)
     .then(newCharacter => {
         console.log(newCharacter)
@@ -35,8 +45,9 @@ Planet.deleteMany({})
     })
 });
 
-Starship.deleteMany({})
-.then (() => {
+Starship.deleteMany({}).then (() => {
+// starshipsData.forEach(starship => {
+// })
     Starship.create(starshipsData)
     .then(newStarship => {
         console.log(newStarship)
