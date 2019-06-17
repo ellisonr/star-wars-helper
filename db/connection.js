@@ -2,14 +2,16 @@ const mongoose = require("mongoose");
 
 mongoose.Promise = Promise;
 
-let mongoURI = "";
+let mongoURI = ""
+
 if (process.env.NODE_ENV === "production") {
 	mongoURI = process.env.DB_URL;
-} else {
+  } else {
 	mongoURI = "mongodb://localhost/star-wars-helper";
-}
+  }
 
-mongoose.connect(mongoURI, {useNewUrlParser: true })
+mongoose
+.connect(mongoURI, {useNewUrlParser: true })
 .then(instance =>
 	console.log(`Connected to db: ${instance.connections[0].name}`)
 	)
