@@ -9,6 +9,7 @@
         "birth_year": "19BBY",
         "gender": "male",
         "home_planet": "Tatooine",
+        "starship": "X-wing",
         "created": "2014-12-09T13:50:51.644000Z",
         "edited": "2014-12-20T21:17:56.891000Z",
         "url": "https://swapi.co/api/people/1/"
@@ -23,6 +24,7 @@
         "birth_year": "112BBY",
         "gender": "n/a",
         "home_planet": "Tatooine",
+        "starship": "None",
         "created": "2014-12-10T15:10:51.357000Z",
         "edited": "2014-12-20T21:17:50.309000Z",
         "url": "https://swapi.co/api/people/2/"
@@ -37,6 +39,7 @@
         "birth_year": "33BBY",
         "gender": "n/a",
         "home_planet": "Naboo",
+        "starship": "None",
         "created": "2014-12-10T15:11:50.376000Z",
         "edited": "2014-12-20T21:17:50.311000Z",
         "url": "https://swapi.co/api/people/3/"
@@ -51,6 +54,7 @@
         "birth_year": "41.9BBY",
         "gender": "male",
         "home_planet": "Tatooine",
+        "starship": "TIE Advanced x1",
         "created": "2014-12-10T15:18:20.704000Z",
         "edited": "2014-12-20T21:17:50.313000Z",
         "url": "https://swapi.co/api/people/4/"
@@ -65,6 +69,7 @@
         "birth_year": "19BBY",
         "gender": "female",
         "home_planet": "Alderaan",
+        "starship": "None",
         "created": "2014-12-10T15:20:09.791000Z",
         "edited": "2014-12-20T21:17:50.315000Z",
         "url": "https://swapi.co/api/people/5/"
@@ -79,6 +84,7 @@
         "birth_year": "52BBY",
         "gender": "male",
         "home_planet": "Tatooine",
+        "starship": "None",
         "created": "2014-12-10T15:52:14.024000Z",
         "edited": "2014-12-20T21:17:50.317000Z",
         "url": "https://swapi.co/api/people/6/"
@@ -93,6 +99,7 @@
         "birth_year": "47BBY",
         "gender": "female",
         "home_planet": "Tatooine",
+        "starship": "None",
         "created": "2014-12-10T15:53:41.121000Z",
         "edited": "2014-12-20T21:17:50.319000Z",
         "url": "https://swapi.co/api/people/7/"
@@ -107,6 +114,7 @@
         "birth_year": "unknown",
         "gender": "n/a",
         "home_planet": "Tatooine",
+        "starship": "None",
         "created": "2014-12-10T15:57:50.959000Z",
         "edited": "2014-12-20T21:17:50.321000Z",
         "url": "https://swapi.co/api/people/8/"
@@ -121,6 +129,7 @@
         "birth_year": "24BBY",
         "gender": "male",
         "home_planet": "Tatooine",
+        "starship": "X-wing",
         "created": "2014-12-10T15:59:50.509000Z",
         "edited": "2014-12-20T21:17:50.323000Z",
         "url": "https://swapi.co/api/people/9/"
@@ -135,6 +144,7 @@
         "birth_year": "57BBY",
         "gender": "male",
         "home_planet": "Stewjon",
+        "starship": "Jedi starfighter",
         "created": "2014-12-10T16:16:29.192000Z",
         "edited": "2014-12-20T21:17:50.325000Z",
         "url": "https://swapi.co/api/people/10/"
@@ -149,6 +159,7 @@
         "birth_year": "41.9BBY",
         "gender": "male",
         "home_planet": "Tatooine",
+        "starship": "Trade Federation cruiser",
         "created": "2014-12-10T16:20:44.310000Z",
         "edited": "2014-12-20T21:17:50.327000Z",
         "url": "https://swapi.co/api/people/11/"
@@ -162,6 +173,7 @@
         "birth_year": "64BBY",
         "gender": "male",
         "home_planet": "Eriadu",
+        "starship": "None",
         "created": "2014-12-10T16:26:56.138000Z",
         "edited": "2014-12-20T21:17:50.330000Z",
         "url": "https://swapi.co/api/people/12/"
@@ -176,6 +188,7 @@
         "birth_year": "200BBY",
         "gender": "male",
         "home_planet": "Kashyyyk",
+        "starship": "Imperial shuttle",
         "created": "2014-12-10T16:42:45.066000Z",
         "edited": "2014-12-20T21:17:50.332000Z",
         "url": "https://swapi.co/api/people/13/"
@@ -190,6 +203,7 @@
         "birth_year": "29BBY",
         "gender": "male",
         "home_planet": "Corellia",
+        "starship": "Millennium Falcon",
         "created": "2014-12-10T16:49:14.582000Z",
         "edited": "2014-12-20T21:17:50.334000Z",
         "url": "https://swapi.co/api/people/14/"
@@ -204,6 +218,7 @@
         "birth_year": "44BBY",
         "gender": "male",
         "home_planet": "Rodia",
+        "starship": "None",
         "created": "2014-12-10T17:03:30.334000Z",
         "edited": "2014-12-20T21:17:50.336000Z",
         "url": "https://swapi.co/api/people/15/"
@@ -218,6 +233,7 @@
         "birth_year": "600BBY",
         "gender": "hermaphrodite",
         "home_planet": "Nal Hutta",
+        "starship": "None",
         "created": "2014-12-10T17:11:31.638000Z",
         "edited": "2014-12-20T21:17:50.338000Z",
         "url": "https://swapi.co/api/people/16/"
@@ -232,6 +248,7 @@
         "birth_year": "21BBY",
         "gender": "male",
         "home_planet": "Corellia",
+        "starship": "X-wing",
         "created": "2014-12-12T11:08:06.469000Z",
         "edited": "2014-12-20T21:17:50.341000Z",
         "url": "https://swapi.co/api/people/18/"
@@ -246,6 +263,7 @@
         "birth_year": "unknown",
         "gender": "male",
         "home_planet": "Bestine IV",
+        "starship": "X-wing",
         "created": "2014-12-12T11:16:56.569000Z",
         "edited": "2014-12-20T21:17:50.343000Z",
         "url": "https://swapi.co/api/people/19/"
@@ -260,6 +278,7 @@
         "birth_year": "82BBY",
         "gender": "male",
         "home_planet": "Naboo",
+        "starship": "None",
         "created": "2014-12-15T12:48:05.971000Z",
         "edited": "2014-12-20T21:17:50.347000Z",
         "url": "https://swapi.co/api/people/21/"
@@ -274,6 +293,7 @@
         "birth_year": "31.5BBY",
         "gender": "male",
         "home_planet": "Kamino",
+        "starship": "Slave 1",
         "created": "2014-12-15T12:49:32.457000Z",
         "edited": "2014-12-20T21:17:50.349000Z",
         "url": "https://swapi.co/api/people/22/"
@@ -288,6 +308,7 @@
         "birth_year": "53BBY",
         "gender": "male",
         "home_planet": "Trandosha",
+        "starship": "None",
         "created": "2014-12-15T12:53:49.297000Z",
         "edited": "2014-12-20T21:17:50.355000Z",
         "url": "https://swapi.co/api/people/24/"
@@ -302,6 +323,7 @@
         "birth_year": "31BBY",
         "gender": "male",
         "home_planet": "Socorro",
+        "starship": "Millennium Falcon",
         "created": "2014-12-15T12:56:32.683000Z",
         "edited": "2014-12-20T21:17:50.357000Z",
         "url": "https://swapi.co/api/people/25/"
@@ -316,6 +338,7 @@
         "birth_year": "37BBY",
         "gender": "male",
         "home_planet": "Bespin",
+        "starship": "None",
         "created": "2014-12-15T13:01:57.178000Z",
         "edited": "2014-12-20T21:17:50.359000Z",
         "url": "https://swapi.co/api/people/26/"
@@ -330,6 +353,7 @@
         "birth_year": "41BBY",
         "gender": "male",
         "home_planet": "Mon Cala",
+        "starship": "None",
         "created": "2014-12-18T11:07:50.584000Z",
         "edited": "2014-12-20T21:17:50.362000Z",
         "url": "https://swapi.co/api/people/27/"
@@ -343,6 +367,7 @@
         "birth_year": "48BBY",
         "gender": "female",
         "home_planet": "Chandrila",
+        "starship": "None",
         "created": "2014-12-18T11:12:38.895000Z",
         "edited": "2014-12-20T21:17:50.364000Z",
         "url": "https://swapi.co/api/people/28/"
@@ -357,6 +382,7 @@
         "birth_year": "52BBY",
         "gender": "male",
         "home_planet": "Naboo",
+        "starship": "None",
         "created": "2014-12-19T17:29:32.489000Z",
         "edited": "2014-12-20T21:17:50.383000Z",
         "url": "https://swapi.co/api/people/36/"

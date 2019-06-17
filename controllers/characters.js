@@ -4,7 +4,11 @@ const router = express.Router();
 const Character = require("../db/models/Character");
 
 router.get("/", (req, res) => {
-    Character.find({}).then(characters => res.json(characters));
+    Character.find({})
+    .populate("home_planet", "name")
+    .populate("starship", "name")
+    .exec((err, characters) =>
+    res.json(characters));
 });
 
 router.get("/id/:id", (req,res) => {

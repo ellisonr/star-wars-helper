@@ -70,6 +70,7 @@ During this project:
     "birth_year": "19BBY",
     "gender": "male",
     "home_planet": [],
+    "starship": [],
     "created": "2014-12-09T13:50:51.644000Z",
     "edited": "2014-12-20T21:17:56.891000Z",
     "url": "https://swapi.co/api/people/1/"
@@ -89,7 +90,6 @@ During this project:
     "consumables": "2 months",
     "hyperdrive_rating": 0.5,
     "starship_class": "Light freighter",
-    "pilots": [],
     "created": "2014-12-10T16:59:45.094000Z",
     "edited": "2014-12-22T17:35:44.464156Z",
     "url": "https://swapi.co/api/starships/10/"
@@ -120,17 +120,17 @@ During this project:
 When set to "get", this will return all characters.
 ##### /api/characters/id/:id
 This path will return a single character based on its _id.
-##### /api/characters/name/:name
+##### /api/characters/:name
 This path will return a single character based on its name.
-##### /api/characters/create
+##### /api/characters/
 This path will create a new character entry.
-##### /api/characters/update/id/:id
+##### /api/characters/id/:id
 This path will update a character based on its _id.
-##### /api/characters/update/name/:name
+##### /api/characters/:name
 This path will update a character based on its name.
-##### /api/characters/delete/id/:id
+##### /api/characters/id/:id
 This path will delete a character based on its _id.
-##### /api/characters/delete/name/:name
+##### /api/characters/:name
 This path will delete a character based on its name.
 
 ### Starships
@@ -138,17 +138,17 @@ This path will delete a character based on its name.
 When set to "get", this will return all starships.
 ##### /api/starships/id/:id
 This path will return a single starship based on its _id.
-##### /api/starships/name/:name
+##### /api/starships/:name
 This path will return a single starship based on its name.
-##### /api/starships/create
+##### /api/starships/
 This path will create a new starship entry.
-##### /api/starships/update/id/:id
+##### /api/starships/id/:id
 This path will update a starship based on its _id.
-##### /api/starships/update/name/:name
+##### /api/starships/:name
 This path will update a starship based on its name.
-##### /api/starships/delete/id/:id
+##### /api/starships/id/:id
 This path will delete a starship based on its _id.
-##### /api/starships/delete/name/:name
+##### /api/starships/:name
 This path will delete a starship based on its name.
 
 ### Planets
@@ -156,15 +156,15 @@ This path will delete a starship based on its name.
 When set to "get", this will return all planets.
 ##### /api/planets/id/:id
 This path will return a single planet based on its _id.
-##### /api/planets/title/:title
+##### /api/planets/:name
 This path will return a single planet based on its name.
-##### /api/planets/create
+##### /api/planets/
 This path will create a new planet entry.
-##### /api/planets/update/id/:id
+##### /api/planets/id/:id
 This path will update a planet based on its _id.
-##### /api/planets/update/title/:title
+##### /api/planets/:name
 This path will update a planet based on its name.
-##### /api/planets/delete/id/:id
+##### /api/planets/id/:id
 This path will delete a planet based on its _id.
-##### /api/planets/delete/title/:title
+##### /api/planets/:name
 This path will delete a planet based on its name.

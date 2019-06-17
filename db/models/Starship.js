@@ -7,11 +7,9 @@ const StarshipSchema = new mongoose.Schema({
     },
     model: {
         type: String,
-        required: true
     },
     manufacturer: {
         type: String,
-        required: true
     },
     cost_in_credits: {
         type: Number
@@ -37,12 +35,6 @@ const StarshipSchema = new mongoose.Schema({
     starship_class: {
         type: String
     },
-    pilots: [
-        {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Character"
-        }
-    ],
     created: {
         type: Date
     },
@@ -51,7 +43,6 @@ const StarshipSchema = new mongoose.Schema({
     },
     url: {
         type: String,
-        required: true
     }
 })
 

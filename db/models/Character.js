@@ -31,6 +31,10 @@ const CharacterSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "Planet"
     },
+    starship: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Starship"
+    },
     created: {
         type: Date
     },
@@ -40,7 +44,6 @@ const CharacterSchema = new mongoose.Schema({
     url: {
         type: String
     }
-
 })
 
 const Character = mongoose.model("Character", CharacterSchema);

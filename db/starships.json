@@ -11,7 +11,6 @@
         "consumables": "2 months",
         "hyperdrive_rating": 0.5,
         "starship_class": "Light freighter",
-        "pilots": ["Chewbacca","Han Solo","Lando Calrissian"],
         "created": "2014-12-10T16:59:45.094000Z",
         "edited": "2014-12-22T17:35:44.464156Z",
         "url": "https://swapi.co/api/starships/10/"
@@ -28,7 +27,6 @@
         "consumables": "1 week",
         "hyperdrive_rating": 1.0,
         "starship_class": "Starfighter",
-        "pilots": ["Luke Skywalker","Biggs Darklighter","Wedge Antilles","Jek Tono Porkins"],
         "created": "2014-12-12T11:19:05.340000Z",
         "edited": "2014-12-22T17:35:44.491233Z",
         "url": "https://swapi.co/api/starships/12/"
@@ -44,7 +42,6 @@
         "consumables": "5 days",
         "hyperdrive_rating": 1.0,
         "starship_class": "Starfighter",
-        "pilots": ["Darth Vader"],
         "created": "2014-12-12T11:21:32.991000Z",
         "edited": "2014-12-22T17:35:44.549047Z",
         "url": "https://swapi.co/api/starships/13/"
@@ -60,7 +57,6 @@
         "consumables": "1 month",
         "hyperdrive_rating": 3.0,
         "starship_class": "Patrol craft",
-        "pilots": ["Boba Fett"],
         "created": "2014-12-15T13:00:56.332000Z",
         "edited": "2014-12-22T17:35:44.716273Z",
         "url": "https://swapi.co/api/starships/21/"
@@ -77,27 +73,9 @@
         "consumables": "2 months",
         "hyperdrive_rating": 1.0,
         "starship_class": "Armed government transport",
-        "pilots": ["Luke Skywalker","Chewbacca","Han Solo"],
         "created": "2014-12-15T13:04:47.235000Z",
         "edited": "2014-12-22T17:35:44.795405Z",
         "url": "https://swapi.co/api/starships/22/"
-    },
-    {
-        "name": "Naboo fighter",
-        "model": "N-1 starfighter",
-        "manufacturer": "Theed Palace Space Vessel Engineering Corps",
-        "cost_in_credits": 200000,
-        "length": 11,
-        "crew": 1,
-        "passengers": 0,
-        "cargo_capacity": 65,
-        "consumables": "7 days",
-        "hyperdrive_rating": 1.0,
-        "starship_class": "Starfighter",
-        "pilots": ["Anakin Skywalker"],
-        "created": "2014-12-19T17:39:17.582000Z",
-        "edited": "2014-12-22T17:35:45.079452Z",
-        "url": "https://swapi.co/api/starships/39/"
     },
     {
         "name": "Jedi starfighter",
@@ -111,7 +89,6 @@
         "consumables": "7 days",
         "hyperdrive_rating": 1.0,
         "starship_class": "Starfighter",
-        "pilots": ["Obi-Wan Kenobi"],
         "created": "2014-12-20T17:35:23.906000Z",
         "edited": "2014-12-22T17:35:45.147746Z",
         "url": "https://swapi.co/api/starships/48/"
@@ -128,57 +105,11 @@
         "consumables": "4 years",
         "hyperdrive_rating": 1.5,
         "starship_class": "capital ship",
-        "pilots": ["Obi-Wan Kenobi","Anakin Skywalker"],
         "created": "2014-12-20T19:40:21.902000Z",
         "edited": "2014-12-22T17:35:45.195165Z",
         "url": "https://swapi.co/api/starships/59/"
     },
     {
-        "name": "Naboo star skiff",
-        "model": "J-type star skiff",
-        "manufacturer": "Theed Palace Space Vessel Engineering Corps/Nubia Star Drives, Incorporated",
-        "length": 29.2,
-        "crew": 3,
-        "passengers": 3,
-        "hyperdrive_rating": 0.5,
-        "starship_class": "yacht",
-        "pilots": ["Obi-Wan Kenobi"],
-        "created": "2014-12-20T19:55:15.396000Z",
-        "edited": "2014-12-22T17:35:45.258859Z",
-        "url": "https://swapi.co/api/starships/64/"
-    },
-    {
-        "name": "Jedi Interceptor",
-        "model": "Eta-2 Actis-class light interceptor",
-        "manufacturer": "Kuat Systems Engineering",
-        "cost_in_credits": 320000,
-        "length": 5.47,
-        "crew": 1,
-        "passengers": 0,
-        "cargo_capacity": 60,
-        "consumables": "2 days",
-        "hyperdrive_rating": 1.0,
-        "starship_class": "starfighter",
-        "pilots": ["Obi-Wan Kenobi","Anakin Skywalker"],
-        "created": "2014-12-20T19:56:57.468000Z",
-        "edited": "2014-12-22T17:35:45.272349Z",
-        "url": "https://swapi.co/api/starships/65/"
-    },
-    {
-        "name": "Belbullab-22 starfighter",
-        "model": "Belbullab-22 starfighter",
-        "manufacturer": "Feethan Ottraw Scalable Assemblies",
-        "cost_in_credits": 168000,
-        "length": 6.71,
-        "crew": 1,
-        "passengers": 0,
-        "cargo_capacity": 140,
-        "consumables": "7 days",
-        "hyperdrive_rating": 6,
-        "starship_class": "starfighter",
-        "pilots": ["Obi-Wan Kenobi"],
-        "created": "2014-12-20T20:38:05.031000Z",
-        "edited": "2014-12-22T17:35:45.381900Z",
-        "url": "https://swapi.co/api/starships/74/"
+        "name": "None"
     }
 ]
